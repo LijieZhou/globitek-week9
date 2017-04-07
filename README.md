@@ -53,7 +53,7 @@ After successfully setup Kippo, use another machine to ssh into the kippo server
 
 - [x] A basic writeup of the attack (what offensive tools were used, what specifically was detected by the honeypot)
 	- In another terminal, the attacker try to login as. Password has been setup, so he/she tried to brute-force common password. It didn't take him/her long to hack in with the default 123456. 
-	![Screenshot1](screenshot1.png)
+	![Screenshot1](screenshot_1.png)
 - [x] An example of the data captured by the honeypot (example: IDS logs including IP, request paths, alerts triggered)
 - [x] A screen-cap of the attack being conducted
     
