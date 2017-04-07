@@ -54,6 +54,10 @@ After successfully setup Kippo, use another machine to ssh into the kippo server
 - [x] A basic writeup of the attack (what offensive tools were used, what specifically was detected by the honeypot)
 	- In another terminal, the attacker try to login as. Password has been setup, so he/she tried to brute-force common password. It didn't take him/her long to hack in with the default 123456. 
 	![Screenshot1]https://drive.google.com/file/d/0BzsBD-G31f93SDVYb2NzZy03enc/view?usp=sharing
+	- See in the red area, when the attacker try to ssh into the honeypot (192.168.86.10:4633), it gets a warning (RSA fingerprint key will be generated). He/she continued and tried two passwords. He/she got hacked after that and gain root priviledge (See area green)
 - [x] An example of the data captured by the honeypot (example: IDS logs including IP, request paths, alerts triggered)
+	- See the attachment of 
 - [x] A screen-cap of the attack being conducted
+	- Take a look at the recording of the attacker's behavior in the log. 
+	![Screenshot2]https://drive.google.com/file/d/0BzsBD-G31f93ODBsdkR2RkpVdG8/view?usp=sharing
     

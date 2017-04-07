@@ -1,0 +1,89 @@
+2017-04-06 10:51:38-0700 [-] Log opened.
+2017-04-06 10:51:38-0700 [-] twistd 15.1.0 (/usr/bin/python 2.7.12) starting up.
+2017-04-06 10:51:38-0700 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2017-04-06 10:51:38-0700 [-] HoneyPotSSHFactory starting on 4633
+2017-04-06 10:51:38-0700 [-] Starting factory <kippo.core.ssh.HoneyPotSSHFactory instance at 0x7ff3d669db48>
+2017-04-06 11:30:59-0700 [-] Received SIGTERM, shutting down.
+2017-04-06 11:30:59-0700 [-] (TCP Port 4633 Closed)
+2017-04-06 11:30:59-0700 [-] Stopping factory <kippo.core.ssh.HoneyPotSSHFactory instance at 0x7ff3d669db48>
+2017-04-06 11:30:59-0700 [-] Main loop terminated.
+2017-04-06 11:30:59-0700 [-] Server Shut Down.
+2017-04-06 14:02:19-0700 [-] Log opened.
+2017-04-06 14:02:19-0700 [-] twistd 15.1.0 (/usr/bin/python 2.7.12) starting up.
+2017-04-06 14:02:19-0700 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2017-04-06 14:02:19-0700 [-] HoneyPotSSHFactory starting on 4633
+2017-04-06 14:02:19-0700 [-] Starting factory <kippo.core.ssh.HoneyPotSSHFactory instance at 0x7f2620b6b440>
+2017-04-06 14:06:40-0700 [-] Received SIGTERM, shutting down.
+2017-04-06 14:06:40-0700 [-] (TCP Port 4633 Closed)
+2017-04-06 14:06:40-0700 [-] Stopping factory <kippo.core.ssh.HoneyPotSSHFactory instance at 0x7f2620b6b440>
+2017-04-06 14:06:40-0700 [-] Main loop terminated.
+2017-04-06 14:06:40-0700 [-] Server Shut Down.
+2017-04-06 14:08:10-0700 [-] Log opened.
+2017-04-06 14:08:10-0700 [-] twistd 15.1.0 (/usr/bin/python 2.7.12) starting up.
+2017-04-06 14:08:10-0700 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2017-04-06 14:08:10-0700 [-] HoneyPotSSHFactory starting on 4633
+2017-04-06 14:08:10-0700 [-] Starting factory <kippo.core.ssh.HoneyPotSSHFactory instance at 0x7f404c5f9440>
+2017-04-06 14:58:44-0700 [-] Received SIGTERM, shutting down.
+2017-04-06 14:58:44-0700 [-] (TCP Port 4633 Closed)
+2017-04-06 14:58:44-0700 [-] Stopping factory <kippo.core.ssh.HoneyPotSSHFactory instance at 0x7f404c5f9440>
+2017-04-06 14:58:44-0700 [-] Main loop terminated.
+2017-04-06 14:58:44-0700 [-] Server Shut Down.
+2017-04-06 15:25:49-0700 [-] Log opened.
+2017-04-06 15:25:49-0700 [-] twistd 15.1.0 (/usr/bin/python 2.7.12) starting up.
+2017-04-06 15:25:49-0700 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2017-04-06 15:25:49-0700 [-] HoneyPotSSHFactory starting on 4633
+2017-04-06 15:25:49-0700 [-] Starting factory <kippo.core.ssh.HoneyPotSSHFactory instance at 0x7fe10ad48440>
+2017-04-06 15:32:11-0700 [kippo.core.ssh.HoneyPotSSHFactory] New connection: 192.168.86.10:43480 (192.168.86.10:4633) [session: 0]
+2017-04-06 15:32:33-0700 [HoneyPotTransport,0,192.168.86.10] Disconnecting with error, code 2
+	reason: bad packet length 1886872589
+2017-04-06 15:32:33-0700 [HoneyPotTransport,0,192.168.86.10] connection lost
+2017-04-06 15:36:01-0700 [kippo.core.ssh.HoneyPotSSHFactory] New connection: 192.168.86.10:43522 (192.168.86.10:4633) [session: 1]
+2017-04-06 15:36:08-0700 [HoneyPotTransport,1,192.168.86.10] Disconnecting with error, code 2
+	reason: bad packet length 2003332961
+2017-04-06 15:36:08-0700 [HoneyPotTransport,1,192.168.86.10] connection lost
+2017-04-06 15:36:16-0700 [kippo.core.ssh.HoneyPotSSHFactory] New connection: 192.168.86.10:43524 (192.168.86.10:4633) [session: 2]
+2017-04-06 15:36:31-0700 [HoneyPotTransport,2,192.168.86.10] Disconnecting with error, code 2
+	reason: bad packet length 1667506223
+2017-04-06 15:36:31-0700 [HoneyPotTransport,2,192.168.86.10] connection lost
+2017-04-06 16:18:37-0700 [kippo.core.ssh.HoneyPotSSHFactory] New connection: 192.168.86.10:43748 (192.168.86.10:4633) [session: 3]
+2017-04-06 16:18:37-0700 [HoneyPotTransport,3,192.168.86.10] Remote SSH version: SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.1
+2017-04-06 16:18:37-0700 [HoneyPotTransport,3,192.168.86.10] kex alg, key alg: diffie-hellman-group-exchange-sha1 ssh-rsa
+2017-04-06 16:18:37-0700 [HoneyPotTransport,3,192.168.86.10] outgoing: aes128-ctr hmac-sha1 none
+2017-04-06 16:18:37-0700 [HoneyPotTransport,3,192.168.86.10] incoming: aes128-ctr hmac-sha1 none
+2017-04-06 16:18:40-0700 [HoneyPotTransport,3,192.168.86.10] /usr/lib/python2.7/dist-packages/Crypto/Cipher/blockalgo.py:141: exceptions.FutureWarning: CTR mode needs counter parameter, not IV
+2017-04-06 16:18:45-0700 [HoneyPotTransport,3,192.168.86.10] NEW KEYS
+2017-04-06 16:18:45-0700 [HoneyPotTransport,3,192.168.86.10] starting service ssh-userauth
+2017-04-06 16:18:45-0700 [SSHService ssh-userauth on HoneyPotTransport,3,192.168.86.10] root trying auth none
+2017-04-06 16:18:45-0700 [SSHService ssh-userauth on HoneyPotTransport,3,192.168.86.10] root trying auth keyboard-interactive
+2017-04-06 16:19:03-0700 [SSHService ssh-userauth on HoneyPotTransport,3,192.168.86.10] login attempt [root/830930] failed
+2017-04-06 16:19:03-0700 [SSHService ssh-userauth on HoneyPotTransport,3,192.168.86.10] root failed auth keyboard-interactive
+2017-04-06 16:19:03-0700 [SSHService ssh-userauth on HoneyPotTransport,3,192.168.86.10] unauthorized login: 
+2017-04-06 16:19:03-0700 [SSHService ssh-userauth on HoneyPotTransport,3,192.168.86.10] root trying auth keyboard-interactive
+2017-04-06 16:19:06-0700 [SSHService ssh-userauth on HoneyPotTransport,3,192.168.86.10] login attempt [root/123456] succeeded
+2017-04-06 16:19:06-0700 [SSHService ssh-userauth on HoneyPotTransport,3,192.168.86.10] root authenticated with keyboard-interactive
+2017-04-06 16:19:06-0700 [SSHService ssh-userauth on HoneyPotTransport,3,192.168.86.10] starting service ssh-connection
+2017-04-06 16:19:06-0700 [SSHService ssh-connection on HoneyPotTransport,3,192.168.86.10] got channel session request
+2017-04-06 16:19:06-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,3,192.168.86.10] channel open
+2017-04-06 16:19:06-0700 [SSHService ssh-connection on HoneyPotTransport,3,192.168.86.10] got global no-more-sessions@openssh.com request
+2017-04-06 16:19:06-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,3,192.168.86.10] pty request: xterm-256color (24, 80, 0, 0)
+2017-04-06 16:19:06-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,3,192.168.86.10] Terminal size: 24 80
+2017-04-06 16:19:06-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,3,192.168.86.10] request_env: '\x00\x00\x00\x04LANG\x00\x00\x00\x0ben_US.UTF-8'
+2017-04-06 16:19:06-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,3,192.168.86.10] getting shell
+2017-04-06 16:19:06-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,3,192.168.86.10] Opening TTY log: log/tty/20170406-161906-6014.log
+2017-04-06 16:19:07-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,3,192.168.86.10] /etc/motd resolved into /etc/motd
+2017-04-06 16:19:31-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,3,192.168.86.10] CMD: pwd
+2017-04-06 16:19:31-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,3,192.168.86.10] Command found: pwd
+2017-04-06 16:19:35-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,3,192.168.86.10] CMD: cd root
+2017-04-06 16:19:35-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,3,192.168.86.10] Command found: cd root
+2017-04-06 16:24:56-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,3,192.168.86.10] CMD: exit
+2017-04-06 16:24:56-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,3,192.168.86.10] Command found: exit
+2017-04-06 16:25:03-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,3,192.168.86.10] CMD: exit
+2017-04-06 16:25:03-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,3,192.168.86.10] Command found: exit
+2017-04-06 16:25:18-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,3,192.168.86.10] CMD: su kippo
+2017-04-06 16:25:18-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,3,192.168.86.10] Command found: su kippo
+2017-04-06 16:25:26-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,3,192.168.86.10] CMD: pwd
+2017-04-06 16:25:26-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,3,192.168.86.10] Command found: pwd
+2017-04-06 16:25:35-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,3,192.168.86.10] CMD: su kippo
+2017-04-06 16:25:35-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,3,192.168.86.10] Command found: su kippo
+2017-04-06 16:25:39-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,3,192.168.86.10] CMD: ls
+2017-04-06 16:25:39-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,3,192.168.86.10] Command found: ls
